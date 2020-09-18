@@ -1,0 +1,36 @@
+body {
+    background-color: #000001;
+    transition: 2s;
+  }
+  
+#container {
+    margin-top: 25%;
+    text-align: center;
+    color: #ffffff;
+    font-family: arial, helvetica, sans-serif;
+    font-weight: bolder;
+    font-size: 120px;
+    text-transform: uppercase;
+    transition: 1s;
+  }
+
+button {
+    background-color: rebeccapurple;
+    color: white;
+    padding: 1rem;
+    font-family: inherit;
+    font-size: 1.2rem;
+    box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+    border: none;
+    transition: transform 0.1s linear;
+}
+
+button:focus {
+    outline: none;
+}
+
+button:active {
+    box-shadow: 0;
+    transform: translate(2px, 2px);
+}
